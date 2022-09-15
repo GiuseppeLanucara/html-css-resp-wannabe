@@ -139,4 +139,49 @@ img {
  }
  /* /SOLUZIONE TABLET */
 
- 
+/* SOLUZIONE MOBILE 480PX */
+ @media screen and (max-width: 480px) {
+
+    .container{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+    .lessons .col{
+        width: 90%;
+    }
+
+    img{
+        height: 100%;
+    }
+
+    p{
+        margin-bottom: 4rem;
+    }
+
+    .steps .col{
+        width: 90%;
+    }
+
+    .steps .col img{
+        height: 100%;
+    }
+
+    .why-us .col{
+        width: 90%;
+    }
+
+    .why-us .col img{
+        height: 100%;
+        margin-bottom: 3em;
+    }
+
+ }
+ /* SOLUZIONE MOBILE 480PX */
